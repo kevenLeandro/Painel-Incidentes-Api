@@ -1,4 +1,4 @@
-# Painel responsáveis por resolver Incidentes                                                  
+# Painel de responsáveis por resolver Incidentes                                                  
 
 Aplicação Front end  consome a api na url: http://localhost:8080/im-day e apresenta os dias e responsáveis por cada dia.
 
