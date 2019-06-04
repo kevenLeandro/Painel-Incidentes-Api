@@ -12,8 +12,7 @@ router.get('/',function(req,res){
 //add the router
 app.use('/', router);
 
-
-app.use(express.static(__dirname + '/'));
+//add css and script file
 app.use(express.static(__dirname + '/'));
 
 //Launch listening server on port 8081  
@@ -21,4 +20,4 @@ app.listen(8081, function () {
     console.log('app listening on port 8081!')  
   })
 
-console.log('Running at Port 4000');
+console.log('Running at Port 4200');
