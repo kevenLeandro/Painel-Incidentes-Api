@@ -34,7 +34,7 @@ As especificações para a criação do container estão contidas Dockerfile na 
 Para criação e execução do container usamos respectivamente os seguintes comandos 
 
 ```sh
-$ docker build -t <your username>/node-web-app
+$ docker build -t <your username>/node-web-app .
 $ docker run -p 4200:8080 -d <your username>/node-web-app 
 ```
 
