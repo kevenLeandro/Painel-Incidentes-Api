@@ -29,7 +29,7 @@ As especificações para a criação do container estão contidas Dockerfile na 
     - EXPOSE 8081  # instrução EXPOSE para que ela seja mapeada pelo daemon do docker
     - CMD node index.js # Comando executa a aplicação
 
-```
+
 ### Docker
 Para criação e execução do container usamos respectivamente os seguintes comandos 
 
