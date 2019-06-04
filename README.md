@@ -35,7 +35,7 @@ Para criação e execução do container usamos respectivamente os seguintes com
 
 ```sh
 $ docker build -t <your username>/node-web-app .
-$ docker run -p 4200:8080 -d <your username>/node-web-app 
+$ docker run -p 4200:8081 -d <your username>/node-web-app 
 ```
 
 ### Detalhes
