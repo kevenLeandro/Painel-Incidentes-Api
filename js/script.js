@@ -14,8 +14,8 @@ $(document).ready(function(){
                 $("tbody").
                 append("<tr> \
                             <td>" + "</td> \
-                            <td>" +  users[i].name + "</td> \
                             <td>" +  users[i].solved_day + "</td> \
+                            <td>" +  users[i].name + "</td> \
                             <td> \ </td> \
                         </tr>");
             }
